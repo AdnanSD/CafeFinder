@@ -104,7 +104,7 @@ e {
   left: 50%;
   display: none;
   border: solid black 4px;
-  background: url(/imagens/FundoPrincipal.jpg)no-repeat;
+  background: url(/src/imagens/FundoPrincipal.jpg)no-repeat;
 
 }
 
@@ -155,7 +155,7 @@ e {
   padding: 3% 4%;
   float: left;
 
-  background: url(/imagens/banner-cafe.jpg) no-repeat;
+  background: url(/src/imagens/banner-cafe.jpg) no-repeat;
   align-items: center;
   width: 96%;
   height: 250px;
@@ -453,12 +453,14 @@ e {
    color: white;
   font-weight: 300;
   padding: 15px;
-  
+ 
   }
   
   .menu li a:hover {
-   
-font-size: 2em;
+    color: white;
+    font-weight: 300;
+    padding: 15px;
+    
 
   }
   
@@ -544,20 +546,65 @@ fieldset {
 
 }
 
-.menu{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: -10px;
+
+/* Alteração no comportamento do menu */
+
+.menu {
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  display: none;
+  border:none;
+
+
+}
+.menu ul {
+width: 100%;
+
+ 
+}
+
+.menu li {
+margin-top: 20px;
+justify-content: space-between;
+
+}
+
+.menu li a {
+margin-left: 60px;
+font-size: 1em;
+font-weight: 700px;
+}
+
+.menu li a:hover {
+  margin-left: 60px;
+  font-size: 1em;
+  font-weight: 700px;
+  border: none;
+
 }
 
 
-.menu li{
-  flex: 1;
-  margin-left: 70px;
- cursor: pointer;
+/* ----------------------------------------------------------------------- */
+
+
+/* Alterarações no foooter */
+.footer-contatos {
+  margin-top: 20px;
+  background-color: #260801;
+  width: 100%;
+  float: left;
+  padding: 1% 1%;
+  text-align: center;
+  border: none;
+  
 }
 
+
+/* -------------------------------- */
 
 
 .banner {
