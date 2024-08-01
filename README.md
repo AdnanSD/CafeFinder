@@ -19,11 +19,11 @@ Foi ultilizado o Vscode no desenvolvimento e as pastas estão separadas por fun�
 -
 -
 ## Licença
-Todas as imagens e informações são de livre uso, não possuindo retrição em seu uso. Quase todas as imgens foram geradas por inteligencia artificial, não possuindo direitos autorais.
+Todas as imagens e informações são de livre uso, não possuindo retrição. Quase todas as imgens foram geradas por inteligencia artificial, não possuindo direitos autorais.
  
 
 # Visão Geral 
-Esse site foi desenvolvido como projeto de faculdade e suas aplicações e logica utilizada requer aperfeiçoamento, no intuito de compartilha conhecimento e evoluir nos estudos compartilho . 
+Esse site foi desenvolvido como projeto de faculdade e suas aplicações e logica utilizada requer aperfeiçoamento, no intuito de compartilhar conhecimento e evoluir nos estudos . 
 
 
 
