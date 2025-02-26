@@ -14,12 +14,12 @@
   display: none;
   position: relative;
   font-size: 1.5em;
-text-align: center;
+  text-align: center;
   margin-right:-50px ;
   margin-top: 180px;
- padding: 3% 4%;
-line-height: 1.5em;
-color: #fffefe;
+  padding: 3% 4%;
+  line-height: 1.5em;
+  color: #fffefe;
 }
 
 
@@ -51,8 +51,8 @@ img {
   float: left;
   padding: 3% 4%;
   background-color: #260801;
-  border: solid 1px rgb(255, 255, 255);
-  overflow: hidden;
+
+
 }
 
 fieldset {
@@ -60,8 +60,7 @@ fieldset {
   width: 150px;
   height: 80px;
   float: left;
-  border: solid rgb(0, 0, 0) 2px;
-  overflow: hidden;
+
 }
 
 .logo {
@@ -132,23 +131,15 @@ e {
 
 .menu li {
   padding: 10%;
-  font-size: 1.5em;
-
-
 }
 
 .menu li a {
   color: rgb(0, 0, 0);
   text-shadow: 1px 1px #fffefe;
-  padding: 3%;
+ 
   font-weight: 700;
+  font-size: 20px;
 }
-
-.menu li a:hover {
-  border: 1px solid rgba(255, 0, 0, 0.664);
-  font-size: 1.5em;
-}
-
 
 .banner {
   margin-top: 20px;
@@ -456,13 +447,7 @@ e {
   
   }
   
-  .menu li a:hover {
-   
-font-size: 2em;
-
-  }
   
-
   .banner {
     margin-top: 40px;
 
@@ -540,20 +525,19 @@ font-size: 2em;
 
 fieldset {
 
-  border: solid rgb(241, 233, 233) 2px;
+ 
 
 }
 
 .menu{
-  display: flex;
+  
   justify-content: space-between;
   align-items: center;
-  margin-top: -10px;
+ 
 }
 
 
 .menu li{
-  flex: 1;
   margin-left: 70px;
  cursor: pointer;
 }
