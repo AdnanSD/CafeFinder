@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <!-- Biblioteca de Emoticos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Site de Responsividade">
+    <title>MundoCafé</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <Fieldset><a class="logo" href="/">delicious <br> coffee </a></Fieldset>
+
+        <button class="btn-menu" onclick="btnMenu()"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a href="" class="btn-close" onclick="btnClose()"><strong>x</strong></a>
+            <ul>
+                <li> <a href="index.html">PAGINA INICIAL</a></li>
+                <li> <a href="#">RECEITAS</a></li>
+                <li> <a href="#">CAFE E SAÚDE</a></li>
+                <li> <a href="#">SOBRE</a></li>
+            </ul>
+    
+        </nav>
+    </header>
+  
+
+    <main class="teste">
+
+        <div class="banner">
+            <h1>Amantes do cafe</h1>
+        </div>
+
+        <article class="texto-map">
+
+            <P>Esse site tem a missão de servir como bussola para os amantes <br>de cafe em todo Brasil.
+
+            </P>
+            <p>
+                Dessa forma pegue sua xicara e vamos atrás de um café bem quentinho.
+            </p>
+
+            <div id="localizador">
+
+
+        </article>
+
+        <article class="mapa">
+            </div>
+            <div id="map"> </div>
+            
+            <div id="inputUsuario">
+                <h3>Adicionar Marcador</h3>
+                <form id="inputFormato">
+                    <label for="descricao">Descrição:</label>
+                    <input type="text" id="descricao" name="descricao" required>
+                    <br><br>
+                    <label for="foto">Foto (URL):</label>
+                    <input type="url" id="foto" name="foto">
+                    <br><br>
+                    <button type="submit">Adicionar</button>
+                    <button type="button" onclick="closeModelo()">Cancelar</button>
+                </form>
+            </div>
+          
+
+                    
+
+
+                
+            <a href="#map"> <button class="botao-mapa" onclick="geoLocalizacao()">
+                <p>Aperte Aqui</p>
+            </button></a>
+
+
+            <div class="texto-extra" >Aqui você pode consultar as principais cafetaria do Brasil e além disso pode adicionar a que você bem desejar. <br>
+                Sinta se livrer para explorar e se divertir experimentando os café pelo mundo a fora. </p> </div>
+          
+
+
+        </article>
+
+
+
+        <article class="postagem">
+
+            <img src="/Capturar.PNG" alt="dat.png">
+            <p>
+
+                "Luke, meu filho, há muito que desejamos discutir nossos destinos e o futuro da galáxia. Apesar de
+                nossas diferenças, é crucial que nos encontremos em um ambiente neutro, longe das tensões e conflitos
+                que nos cercam.
+                Portanto, proponho um encontro diferente desta vez. Venha se juntar a mim para um café.
+
+
+        </article>
+
+
+    </main>
+
+    <footer class="footer-contatos">
+        <div class="social-media">
+            <div class="icones">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+            <div class="footer-bottom">
+                <p style="text-align: center; color: aliceblue">&copy; 2024 AdamCyber. Todos os direitos reservados.</p>
+                <div class="LogoEmpres">
+                    <img class="LogoEmpresa" src="/imagens/LogoDaEmpresa.png" alt="imagem.png">
+                </div>
+            </div>
+     
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="Versao02.js" defer></script>
+</body>
+
+</html>
